@@ -1,0 +1,6 @@
+# Nix build outputs
+result
+result-*
+
+# Nix flake lock metadata backup files (rare, but keep clean)
+*.lock.backup
