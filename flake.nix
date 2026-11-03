@@ -28,7 +28,7 @@
         hf = pkgs.python3Packages.huggingface-hub.overridePythonAttrs (old: {
           meta = (old.meta or { }) // {
             description = "Hugging Face CLI (hf) packaged as a standalone Nix flake";
-            homepage = "https://github.com/peedrr/hf-cli-nix";
+            homepage = "https://github.com/arikamidotnet/hf-cli-nix";
             license = pkgs.lib.licenses.asl20;
             maintainers = [ ];
             mainProgram = "hf";
